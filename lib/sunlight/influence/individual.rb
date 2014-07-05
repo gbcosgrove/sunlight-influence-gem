@@ -7,8 +7,7 @@ class Sunlight::Influence::Individual < OpenStruct
   ## Pass in search: "name"
 
   def self.ind_id_lookup(args)
-    query = EntitySearch
-    entity = Sunlight::Influence::find_individual(args)
+    entity = Sunlight::Influence::EntitySearch.find_individual(args)
     entity[0]["id"]
   end
 
