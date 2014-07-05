@@ -1,13 +1,13 @@
 require 'sunlight/influence'
 
 class Sunlight::Influence::Individual < OpenStruct
-  extend CallConstructor
+
 
   ## Pass in search: "name"
 
   def self.ind_id_lookup(args)
-    query = Sunlight::Influence::EntitySearch
-    entity = query.find_individual(args)
+    query = EntitySearch
+    entity = Sunlight::Influence::find_individual(args)
     entity[0]["id"]
   end
 

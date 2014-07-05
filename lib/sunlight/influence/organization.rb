@@ -1,7 +1,7 @@
 require 'sunlight/influence'
 
 class Sunlight::Influence::Organization < OpenStruct
-  extend CallConstructor
+
 
 
 

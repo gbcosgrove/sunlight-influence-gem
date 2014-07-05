@@ -1,7 +1,7 @@
 require 'sunlight/influence'
 
 class Sunlight::Influence::Politician < OpenStruct
-  extend CallConstructor
+
 
   def self.pol_id_lookup(options)
     entity = Sunlight::Influence::EntitySearch.find_politician(options)

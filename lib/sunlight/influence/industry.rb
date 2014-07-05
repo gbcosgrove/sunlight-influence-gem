@@ -1,7 +1,7 @@
 require 'sunlight/influence'
 
 class Sunlight::Influence::Industry < OpenStruct
-  extend CallConstructor
+
 
   def self.industry_id_lookup(args)
     query = Sunlight::Influence::EntitySearch
