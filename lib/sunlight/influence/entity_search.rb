@@ -2,7 +2,7 @@ require 'sunlight/influence'
 require_relative 'call_constructor_module.rb'
 
 class Sunlight::Influence::EntitySearch < OpenStruct
-
+  extend CallConstructor
 
   def self.id_lookup(args)
     entity = self.search(args)

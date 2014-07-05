@@ -2,8 +2,7 @@ require 'sunlight/influence'
 require_relative 'call_constructor_module.rb'
 
 class Sunlight::Influence::Organization < OpenStruct
-
-
+  extend CallConstructor
 
 
   def self.org_id_lookup(options)

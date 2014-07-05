@@ -2,7 +2,7 @@ require 'sunlight/influence'
 require_relative 'call_constructor_module.rb'
 
 class Sunlight::Influence::ItemizedSearch < OpenStruct
-
+  extend CallConstructor
 
   def self.campaign_contributions(options)
     check_options_hash(options)

@@ -2,7 +2,7 @@ require 'sunlight/influence'
 require_relative 'call_constructor_module.rb'
 
 class Sunlight::Influence::Individual < OpenStruct
-
+  extend CallConstructor
 
   ## Pass in search: "name"
 
