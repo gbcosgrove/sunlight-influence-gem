@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Greg Cosgrove"]
   spec.email         = ["gregcosgrove@gmail.com"]
   spec.summary       = %q{A gem wrapper for the Sunlight Foundation's Influence Explorer API}
-  spec.description   = %q{A gem wrapper for the Sunlight Foundation's Influence Explorer API}
+  spec.description   = %q{A ruby gem wrapper for the Sunlight Foundation's Influence Explorer API}
   spec.homepage      = ""
   spec.license       = "MIT"
 
